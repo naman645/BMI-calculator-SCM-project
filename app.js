@@ -16,6 +16,7 @@ function calculateBmi() {
         result.innerText = "Please provide a valid weight";
         return;
     }
+// this is my bmi formulat
 
     const bmi = (weight / ((height * height) / 10000)).toFixed(2);
 
