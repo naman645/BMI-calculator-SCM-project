@@ -19,9 +19,10 @@ function calculateBmi() {
 // this is my bmi formulat
 
     const bmi = (weight / ((height * height) / 10000)).toFixed(2);
-
+// bmi < 18.5 then the person is consider to be underweight.
     if (bmi < 18.5) {
-        result.innerText = `Under Weight: ${bmi}`; 
+        result.innerText = `Under Weight: ${bmi}`;
+//bmi > 18.5 the person is consider to be healthy.
     } else if (bmi >= 18.5 && bmi < 24.9) {
         result.innerText = `Normal: ${bmi}`;
     } else if (bmi >= 25 && bmi < 29.9) {
