@@ -39,4 +39,4 @@ function calculateBmi() {
     }
 }
 
-//javascript
+//javascript code
