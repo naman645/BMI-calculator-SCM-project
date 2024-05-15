@@ -2,7 +2,7 @@ window.onload = () => {
     const button = document.querySelector('#btn');
     button.addEventListener('click', calculateBmi)
 }
-// this is the function used for calculation
+
 
 function calculateBmi() {
     const height = document.querySelector('#height').value;
