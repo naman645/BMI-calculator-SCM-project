@@ -40,3 +40,4 @@ function calculateBmi() {
 }
 
 //javascript code
+//.......
